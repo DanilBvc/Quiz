@@ -1,0 +1,13 @@
+.res__wrapper {
+    position: absolute;
+    left: 5%;                 /* для браузеров не поддерживающих calc() */
+    left: calc(40px);
+    width: 90%;               /* для браузеров не поддерживающих calc() */
+    width: calc(100% - 80px);
+    padding: 6px;
+    text-align: center;
+    top: calc(100px);
+    font-size: 26px;
+    color: #fff;
+    font-weight: 600;
+}
